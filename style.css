@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url(/fontes/idroid.otf);
+    src: url(/fontes/idroid.otf) format('opentype');
     font-weight: normal;
 }
 /* configurações globais */
@@ -55,7 +55,7 @@ header p{
     padding-left: 10px;
     padding-left: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.397);
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 /* config nav */
 nav{
